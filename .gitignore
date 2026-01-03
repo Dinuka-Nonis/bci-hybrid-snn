@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+bci_env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files (too large for git)
+data/raw/*.fif
+data/raw/*.edf
+data/processed/*.npy
+data/processed/*.pkl
+data/splits/*.npy
+*.h5
+*.hdf5
+
+# Model checkpoints
+*.pt
+*.pth
+best_model.pt
+checkpoints/
+
+# Logs
+logs/*.log
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Results
+results/*.png
+results/*.pdf
+results/*.csv
+
+# Config secrets (if you add API keys later)
+.env
+secrets.yaml
