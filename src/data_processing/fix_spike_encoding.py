@@ -102,5 +102,4 @@ print(f"  Average firing rate: {avg_rate:.2f} Hz")
 print(f"  Quality: {quality}")
 print(f"  Total spikes per trial: {spike_trains.sum(axis=(1,2)).mean():.0f}")
 
-print("\n✓ Ready for Day 5: Train/Test Split & Baseline Model")
 print("=" * 60)
